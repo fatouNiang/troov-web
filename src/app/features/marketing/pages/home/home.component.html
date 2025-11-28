@@ -1,0 +1,426 @@
+<!-- Slide Section -->
+<section class="relative w-full h-[90vh] mt-14">
+  <div id="hero-carousel" class="relative w-full h-full" data-carousel="slide" data-carousel-interval="5000">
+    
+    <!-- Carousel wrapper -->
+    <div class="relative h-full overflow-hidden rounded-lg">
+      
+     
+    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <video  muted loop class="w-full h-full object-cover">
+          <source src="/slide/digital.mp4" type="video/mp4" />
+        </video>
+        <div class="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center text-white">
+          <h1 class="text-4xl md:text-6xl font-bold mb-6">Troov </h1>
+          <button class="bg-white text-black px-6 py-3 rounded-full font-semibold hover:bg-gray-200">
+            Decouvrez
+          </button>
+        </div>
+      </div>
+      <!-- Slide 1 (Image) -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <img src="/img1.jpg" class="w-full h-full object-cover" alt="Image 1" />
+        <div class="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center text-white">
+          <h1 class="text-4xl md:text-6xl font-bold mb-6">Trouver une chambre</h1>
+          <button class="bg-white text-black px-6 py-3 rounded-full font-semibold hover:bg-gray-200">
+            Voir plus
+          </button>
+        </div>
+      </div>
+
+      <!-- Slide 2 (Image) -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <img src="/slide/img-slide.jpg" class="w-full h-full object-cover" alt="Image 1" />
+        <div class="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center text-white">
+          <h1 class="text-4xl md:text-6xl font-bold mb-6">Trouver une chambre</h1>
+          <button class="bg-white text-black px-6 py-3 rounded-full font-semibold hover:bg-gray-200">
+            Voir plus
+          </button>
+        </div>
+      </div>
+
+      <!-- Slide 3 (Image) -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <img src="/img2.jpg" class="w-full h-full object-cover" alt="Image 2" />
+        <div class="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center text-white">
+          <h1 class="text-4xl md:text-6xl font-bold mb-6">Troover un mentor</h1>
+          <button class="bg-white text-black px-6 py-3 rounded-full font-semibold hover:bg-gray-200">
+            Découvrir
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Controls -->
+    <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+      <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-black/50 group-hover:bg-black/70 text-white">◀</span>
+    </button>
+    <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+      <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-black/50 group-hover:bg-black/70 text-white">▶</span>
+    </button>
+
+    <!-- Dots -->
+    <div class="absolute bottom-5 left-1/2 z-30 flex -translate-x-1/2 space-x-3">
+      <button type="button" class="w-3 h-3 rounded-full bg-white" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+      <button type="button" class="w-3 h-3 rounded-full bg-gray-400" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+      <button type="button" class="w-3 h-3 rounded-full bg-gray-400" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+    </div>
+  </div>
+</section>
+
+<!-- version carrousselle -->
+<section class="py-12 mx-44 bg-gray-50">
+  <!-- sous titre section d'information -->
+  <section>
+    <div class="container mx-auto ">
+      <div class="grid grid-cols-2 gap-4">
+        <div class="mb-6 p-6">
+          <h2 class="text-gray-800 text-lg font-bold">
+            TROOV. <span class="font-semibold text-gray-500">La meilleur façon d'acheter ce que tu aimes à Dakar mais surtout, c'est là ou 
+              tes recherches s'arrerrent.</span>
+          </h2>
+        </div> 
+
+        <div class="bg-slate-300 mb-6 p-6">
+          <h2 class="text-lg font-bold">Troov
+            <span class="font-semibold text-gray-500"> La meilleur façon d'acheter ce que tu aimes à Dakar mais surtout, c'est là ou 
+            tes recherches s'arrerrent.</span>
+          </h2>
+          
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- FIN sous titre section d'information -->
+
+  <div class="max-w-7xl mx-auto px-6">
+
+    <!-- Header Carroussel services -->
+    <div class="mb-6">
+      <h2 class="text-gray-800 text-lg font-bold">
+        TROOV. <span class="font-normal text-gray-500">LE SERVICE DE QUALITÉ À TRÈS BON PRIX</span>
+      </h2>
+    </div>
+
+
+
+
+  <div class="relative w-full">
+
+    <div #carousel class="flex overflow-x-auto gap-6 py-5 scroll-smooth no-scrollbar">
+
+    <!-- Carte 1 -->
+    <div class="bg-white shadow-lg rounded-2xl px-6 py-10 w-full text-center min-w-[280px] flex flex-col">
+      <h3 class="text-lg font-semibold mb-3">Location<br>Colocation</h3>
+      <div class="flex-1 flex items-center justify-center">
+        <img 
+          src="/immo-1.png" 
+          alt="location" 
+          class="max-w-[180px] max-h-[120px] w-auto h-auto object-contain"
+          loading="lazy">
+      </div>
+    </div>
+
+    <!-- Carte 2 -->
+    <div class="bg-white shadow-lg rounded-2xl px-6 py-16 w-full text-center min-w-[280px] flex flex-col">
+      <h3 class="text-lg font-semibold mb-2">Découvre + de 250 talents </h3>
+      <p class="text-xs text-gray-500 mb-3">Tresses, Peinture, Électricien, Frigo, Livraison…</p>
+      <div class="flex-1 flex items-center justify-center">
+        <img 
+          src="/slide-2.png" 
+          alt="talents" 
+          class="w-40 h-32 object-cover rounded"
+          loading="lazy">
+      </div>
+    </div>
+
+    <!-- Carte 3 -->
+    <div class="bg-white shadow-lg rounded-2xl px-6 py-10 w-full text-center min-w-[280px] flex flex-col">
+      <h3 class="text-lg font-semibold mb-2">Envoie et Reçois<br>ton argent en 1 clic</h3>
+      <div class="flex-1 flex items-center justify-center">
+        <img 
+          src="/immo.png" 
+          alt="map" 
+          class="w-56 h-40 object-contain"
+          loading="lazy">
+      </div>
+    </div>
+
+    <!-- Carte 4 -->
+    <div class="bg-white shadow-lg rounded-2xl px-6 py-10 w-full text-center min-w-[280px] flex flex-col">
+      <h3 class="text-lg font-semibold mb-3">transfert d'argent</h3>
+      <div class="flex-1 flex items-center justify-center">
+        <img 
+          src="/immo.png" 
+          alt="location" 
+          class="w-36 h-36 object-contain"
+          loading="lazy">
+      </div>
+    </div>
+    </div>
+
+    <!-- Flèches -->
+    
+    <button type="button" class="absolute top-1/2 left-0 -translate-y-1/2 bg-white  p-2 rounded-full shadow"
+      (click)="scrollLeft(carousel)"
+    >
+      <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+          </svg>
+    </button>
+    <button type="button"
+      class="absolute top-1/2 right-0 -translate-y-1/2 bg-white p-2 rounded-full shadow"
+      (click)="scrollRight(carousel)"
+    >
+      <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+    </button>
+  </div>
+
+
+    <!-- Stats section -->
+    <div class="mt-12">
+      <h3 class="text-xl font-bold text-gray-800 mb-6">
+        LA DIFFÉRENCE TROOV. <span class="text-gray-500 font-medium">Encore plus de raisons de faire vos achats chez nous.</span>
+      </h3>
+
+      <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+        <div class="bg-gray-100 rounded-xl p-6 shadow text-center">
+          <div class="text-2xl font-bold">+78</div>
+          <div class="text-gray-600 font-semibold">annonces</div>
+          <p class="text-xs text-gray-400 mt-2">sur l’immobilier actuellement</p>
+        </div>
+        <div class="bg-gray-100 rounded-xl p-6 shadow text-center">
+          <div class="text-2xl font-bold">+450</div>
+          <div class="text-gray-600 font-semibold">artisans</div>
+          <p class="text-xs text-gray-400 mt-2">travaillent avec nous</p>
+        </div>
+        <div class="bg-gray-100 rounded-xl p-6 shadow text-center">
+          <div class="text-2xl font-bold">+15.000</div>
+          <div class="text-gray-600 font-semibold">membres</div>
+          <p class="text-xs text-gray-400 mt-2">bénéficient de nos services</p>
+        </div>
+        <div class="bg-gray-100 rounded-xl p-6 shadow text-center">
+          <div class="text-2xl font-bold">+5</div>
+          <div class="text-gray-600 font-semibold">pays</div>
+          <p class="text-xs text-gray-400 mt-2">où Troov intervient</p>
+        </div>
+        <div class="bg-gray-100 rounded-xl p-6 shadow text-center">
+          <div class="text-2xl font-bold">+5.0</div>
+          <div class="text-gray-600 font-semibold">clients</div>
+          <p class="text-xs text-gray-400 mt-2">satisfaits</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- TROOV, NOTRE FAMILLE. -->
+  <div class="text-center mt-12">
+    <h3 class="text-xl font-bold text-gray-800 mb-6">
+      TROOV, NOTRE FAMILLE. <span class="text-gray-500 font-medium">
+        On n'est pas seulement dqns le meme monde, on est aussi dans le meme reseau.</span>
+      </h3>
+  </div>
+
+   <div class="relative w-full">
+
+    <div #carouselle class="flex overflow-x-auto gap-6 py-5 scroll-smooth no-scrollbar">
+
+    <!-- Carte 1 -->
+    <div class="bg-white shadow-lg rounded-2xl px-6 py-10 w-full text-center min-w-[280px] flex flex-col">
+      <h3 class="text-lg font-semibold mb-3">Location<br>Colocation</h3>
+      <div class="flex-1 flex items-center justify-center">
+        <img 
+          src="/JPEG/1.jpg" 
+          alt="location" 
+          class="max-w-[180px] max-h-[120px] w-auto h-auto object-contain"
+          loading="lazy">
+      </div>
+    </div>
+
+    <!-- Carte 2 -->
+    <div class="bg-white shadow-lg rounded-2xl px-6 py-16 w-full text-center min-w-[280px] flex flex-col">
+      <h3 class="text-lg font-semibold mb-2">Découvre + de 250 talents </h3>
+      <p class="text-xs text-gray-500 mb-3">Tresses, Peinture, Électricien, Frigo, Livraison…</p>
+      <div class="flex-1 flex items-center justify-center">
+        <img 
+          src="/JPEG/1.jpg" 
+          alt="talents" 
+          class="w-40 h-32 object-cover rounded"
+          loading="lazy">
+      </div>
+    </div>
+
+    <!-- Carte 3 -->
+    <div class="bg-white shadow-lg rounded-2xl px-6 py-10 w-full text-center min-w-[280px] flex flex-col">
+      <h3 class="text-lg font-semibold mb-2">Envoie et Reçois<br>ton argent en 1 clic</h3>
+      <div class="flex-1 flex items-center justify-center">
+        <img 
+          src="/JPEG/1.jpg" 
+          alt="map" 
+          class="w-56 h-40 object-contain"
+          loading="lazy">
+      </div>
+    </div>
+
+    <!-- Carte 4 -->
+    <div class="bg-white shadow-lg rounded-2xl px-6 py-10 w-full text-center min-w-[280px] flex flex-col">
+      <h3 class="text-lg font-semibold mb-3">transfert d'argent</h3>
+      <div class="flex-1 flex items-center justify-center">
+        <img 
+          src="/JPEG/1.jpg" 
+          alt="location" 
+          class="w-36 h-36 object-contain"
+          loading="lazy">
+      </div>
+    </div>
+    </div>
+
+    <!-- Flèches -->
+    
+    <button type="button" class="absolute top-1/2 left-0 -translate-y-1/2 bg-white  p-2 rounded-full shadow"
+      (click)="scrollLeft(carousel)"
+    >
+      <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+          </svg>
+    </button>
+    <button type="button"
+      class="absolute top-1/2 right-0 -translate-y-1/2 bg-white p-2 rounded-full shadow"
+      (click)="scrollRight(carousel)"
+    >
+      <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+    </button>
+  </div>
+
+
+
+    <div class="text-center mt-12">
+      <h3 class="text-xl font-bold text-gray-800 mb-6">
+        Ils nous font confiance. <span class="text-gray-500 font-medium">
+          Rejoignez notre communauté grandissante de clients satisfaits.</span>
+      </h3>
+    </div>
+
+
+    <div class="relative w-full overflow-hidden py-6">
+      <div class="flex gap-10 animate-marquee">
+        @for(logo of logos; track logo){
+          <img [src]="logo" [alt]="logo" class="h-12 object-contain" />
+        }
+        @for(logo of logos; track logo){
+          <img [src]="logo" [alt]="logo" class="h-12 object-contain" />
+        }
+        <!-- Duplique la liste pour une boucle parfaite -->
+        <!-- <img *ngFor="let logo of logos" [src]="logo" class="h-12 object-contain" /> -->
+      </div>
+    </div>
+
+
+  <div class="relative h-60 bg-slate-200 overflow-hidden rounded-lg">
+      
+      <!-- Slide 1 (Vidéo) -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <!-- <video autoplay muted loop class="w-full h-full object-cover">
+          <source src="assets/hero/video.mp4" type="video/mp4" />
+        </video> -->
+        <div class="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center text-white">
+          <h1 class="text-4xl md:text-6xl font-bold mb-6">Trouvez un colocataire</h1>
+          <button class="bg-white text-black px-6 py-3 rounded-full font-semibold hover:bg-gray-200">
+            Decouvrez
+          </button>
+        </div>
+      </div>
+
+      <!-- Slide 2 (Image) -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <img src="/img-slide.jpg" class="w-full h-full object-cover" alt="Image 1" />
+        <div class="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center text-white">
+          <h1 class="text-4xl md:text-6xl font-bold mb-6">Trouver une chambre</h1>
+          <button class="bg-white text-black px-6 py-3 rounded-full font-semibold hover:bg-gray-200">
+            Voir plus
+          </button>
+        </div>
+      </div>
+
+      <!-- Slide 3 (Image) -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <img src="/img2.jpg" class="w-full h-full object-cover" alt="Image 2" />
+        <div class="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center text-white">
+          <h1 class="text-4xl md:text-6xl font-bold mb-6">Troover un mentor</h1>
+          <button class="bg-white text-black px-6 py-3 rounded-full font-semibold hover:bg-gray-200">
+            Découvrir
+          </button>
+        </div>
+      </div>
+
+    </div>
+</section>
+
+
+
+<!-- Hero Section -->
+<!-- <section class="pt-24 relative">
+  <div class="relative h-[90vh] flex items-center justify-center">
+    <img src="/img-slide.jpg"
+      alt="Hero Nike" class="absolute inset-0 w-full h-full object-cover" />
+      
+    <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+    <div class="relative text-center text-white">
+      <h1 class="text-5xl md:text-7xl font-bold mb-6">TROOVer</h1>
+      <p class="mb-6 text-lg md:text-xl">Là où tes recherches s’arrêtent.</p>
+      <button class="bg-white text-black font-semibold px-6 py-3 rounded-full hover:bg-gray-200">
+        Contactez maintenant
+      </button>
+    </div>
+  </div>
+</section> -->
+
+<!-- Section Produits -->
+<!-- <section class="max-w-7xl mx-auto py-16 px-6 grid md:grid-cols-3 gap-8">
+  <div class="relative group">
+    <img src="/img1.jpg"
+      alt="Produit 1" class="rounded-xl w-full h-[400px] object-cover" />
+    <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition">
+      <button class="bg-white px-4 py-2 rounded-full font-semibold">Voir plus</button>
+    </div>
+  </div>
+
+  <div class="relative group">
+    <img src="/img2.jpg"
+      alt="Produit 2" class="rounded-xl w-full h-[400px] object-cover" />
+    <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition">
+      <button class="bg-white px-4 py-2 rounded-full font-semibold">Voir plus</button>
+    </div>
+  </div>
+
+  <div class="relative group">
+    <img src="/img1.jpg"
+      alt="Produit 3" class="rounded-xl w-full h-[400px] object-cover" />
+    <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition">
+      <button class="bg-white px-4 py-2 rounded-full font-semibold">Voir plus</button>
+    </div>
+  </div>
+</section> -->
+
+<!-- <section class="pt-24 relative">
+  <div class="relative h-[90vh] flex items-center justify-center">
+    <img src="/img1.jpg"
+      alt="Hero Nike" class="absolute inset-0 w-full h-full object-cover" />
+    <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+    <div class="relative text-left text-white">
+      <h1 class="text-5xl md:text-7xl font-bold mb-6">TROOVer</h1>
+      <p class="mb-6 text-lg md:text-xl">Là où tes recherches s’arrêtent.</p>
+      <button class="bg-white text-black font-semibold px-6 py-3 rounded-full hover:bg-gray-200">
+        Contactez maintenant
+      </button>
+    </div>
+  </div>
+</section> -->
+<!-- Footer -->
+
